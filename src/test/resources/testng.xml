@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bookstore API Test Suite">
+    <listeners>
+        <listener class-name="com.bookstore.listeners.TestListener"/>
+    </listeners>
+    <test name="Books API Tests">
+        <classes>
+            <class name="com.bookstore.tests.BooksApiTests"/>
+        </classes>
+    </test>
+</suite>
