@@ -30,3 +30,120 @@
 2025-04-17 15:49:32 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Book to Update
 2025-04-17 15:49:32 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 0
 2025-04-17 15:49:33 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 9999
+2025-04-17 19:30:58 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Test Book
+2025-04-17 19:30:59 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:31:00 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: null
+2025-04-17 19:31:00 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Book to Delete
+2025-04-17 19:31:00 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 9999
+2025-04-17 19:31:01 INFO  com.bookstore.api.utils.LoggerUtil - Fetching all books
+2025-04-17 19:31:01 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: 9999
+2025-04-17 19:31:02 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: -1
+2025-04-17 19:31:02 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: 1
+2025-04-17 19:31:02 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Book to Update
+2025-04-17 19:31:03 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 9999
+2025-04-17 19:31:03 INFO  com.bookstore.api.utils.LoggerUtil - Creating a new author
+2025-04-17 19:31:03 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:31:04 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:31:04 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 999999
+2025-04-17 19:31:04 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving all authors
+2025-04-17 19:31:05 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 999999
+2025-04-17 19:31:05 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 999999
+2025-04-17 19:31:05 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 0
+2025-04-17 19:37:14 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Test Book
+2025-04-17 19:37:16 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:37:16 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: null
+2025-04-17 19:37:16 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Book to Delete
+2025-04-17 19:37:17 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 0
+2025-04-17 19:37:17 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 9999
+2025-04-17 19:37:17 INFO  com.bookstore.api.utils.LoggerUtil - Fetching all books
+2025-04-17 19:37:18 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: 9999
+2025-04-17 19:37:19 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: -1
+2025-04-17 19:37:19 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: 1
+2025-04-17 19:37:19 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Book to Update
+2025-04-17 19:37:20 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 0
+2025-04-17 19:37:20 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 9999
+2025-04-17 19:37:20 INFO  com.bookstore.api.utils.LoggerUtil - Creating a new author
+2025-04-17 19:37:21 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:37:21 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:37:21 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 999999
+2025-04-17 19:37:22 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving all authors
+2025-04-17 19:37:22 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 999999
+2025-04-17 19:37:22 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 999999
+2025-04-17 19:37:23 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 0
+2025-04-17 19:40:48 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Test Book
+2025-04-17 19:40:49 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:40:49 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:40:50 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 999999
+2025-04-17 19:40:50 INFO  com.bookstore.api.utils.LoggerUtil - Fetching all books
+2025-04-17 19:40:50 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: -1
+2025-04-17 19:40:51 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: 1
+2025-04-17 19:40:51 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 0
+2025-04-17 19:40:51 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 0
+2025-04-17 19:40:52 INFO  com.bookstore.api.utils.LoggerUtil - Creating a new author
+2025-04-17 19:40:52 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:40:52 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:40:53 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 999999
+2025-04-17 19:40:53 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving all authors
+2025-04-17 19:40:54 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 999999
+2025-04-17 19:40:54 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 999999
+2025-04-17 19:40:54 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 0
+2025-04-17 19:47:08 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Test Book
+2025-04-17 19:47:09 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:47:09 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:47:09 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 999999
+2025-04-17 19:47:10 INFO  com.bookstore.api.utils.LoggerUtil - Fetching all books
+2025-04-17 19:47:10 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: -1
+2025-04-17 19:47:11 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: 1
+2025-04-17 19:47:12 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 0
+2025-04-17 19:47:12 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 0
+2025-04-17 19:47:12 INFO  com.bookstore.api.utils.LoggerUtil - Creating a new author
+2025-04-17 19:47:13 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:47:13 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:47:14 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 999999
+2025-04-17 19:47:14 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving all authors
+2025-04-17 19:47:14 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 1
+2025-04-17 19:47:15 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 999999
+2025-04-17 19:47:15 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 999999
+2025-04-17 19:47:15 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 1
+2025-04-17 19:47:16 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 1
+2025-04-17 19:47:16 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 1
+2025-04-17 19:49:15 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Test Book
+2025-04-17 19:49:16 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:49:17 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:49:17 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 999999
+2025-04-17 19:49:17 INFO  com.bookstore.api.utils.LoggerUtil - Fetching all books
+2025-04-17 19:49:18 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: -1
+2025-04-17 19:49:18 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: 1
+2025-04-17 19:49:19 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 0
+2025-04-17 19:49:19 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 0
+2025-04-17 19:49:19 INFO  com.bookstore.api.utils.LoggerUtil - Creating a new author
+2025-04-17 19:49:20 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:49:20 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:49:20 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 999999
+2025-04-17 19:49:21 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving all authors
+2025-04-17 19:49:21 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 1
+2025-04-17 19:49:22 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 999999
+2025-04-17 19:49:22 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 999999
+2025-04-17 19:49:22 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 1
+2025-04-17 19:49:23 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 1
+2025-04-17 19:49:23 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 1
+2025-04-17 19:52:15 INFO  com.bookstore.api.utils.LoggerUtil - Creating book: Test Book
+2025-04-17 19:52:16 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:52:17 INFO  com.bookstore.api.utils.LoggerUtil - Creating book with raw JSON
+2025-04-17 19:52:17 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 999999
+2025-04-17 19:52:17 INFO  com.bookstore.api.utils.LoggerUtil - Fetching all books
+2025-04-17 19:52:18 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: -1
+2025-04-17 19:52:18 INFO  com.bookstore.api.utils.LoggerUtil - Fetching book with ID: 1
+2025-04-17 19:52:19 INFO  com.bookstore.api.utils.LoggerUtil - Updating book with ID: 0
+2025-04-17 19:52:19 INFO  com.bookstore.api.utils.LoggerUtil - Deleting book with ID: 0
+2025-04-17 19:52:20 INFO  com.bookstore.api.utils.LoggerUtil - Creating a new author
+2025-04-17 19:52:20 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:52:20 INFO  com.bookstore.api.utils.LoggerUtil - Creating author with raw JSON
+2025-04-17 19:52:21 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 999999
+2025-04-17 19:52:21 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving all authors
+2025-04-17 19:52:22 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 1
+2025-04-17 19:52:22 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 999999
+2025-04-17 19:52:22 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 999999
+2025-04-17 19:52:22 INFO  com.bookstore.api.utils.LoggerUtil - Updating author with ID: 1
+2025-04-17 19:52:23 INFO  com.bookstore.api.utils.LoggerUtil - Deleting author with ID: 1
+2025-04-17 19:52:23 INFO  com.bookstore.api.utils.LoggerUtil - Retrieving author with ID: 1
