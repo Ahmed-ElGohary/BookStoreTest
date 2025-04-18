@@ -14,7 +14,7 @@ public class AuthorsApiClient {
 
     public AuthorsApiClient() {
         this.requestSpec = RequestSpecificationConfig.getRequestSpec()
-                .basePath("/Authors"); // Correct base path for Authors API
+                .basePath("/Authors");
     }
 
     public Response getAllAuthors() {
