@@ -11,7 +11,7 @@ public class ResponseSpecificationConfig {
         return new ResponseSpecBuilder()
                 .expectStatusCode(200)
                 .expectContentType(JSON)
-                .expectBody("id", notNullValue()) // Generic check for 'id' field
+                .expectBody("id", notNullValue())
                 .build();
     }
 
@@ -27,7 +27,7 @@ public class ResponseSpecificationConfig {
                 .build();
     }
 
-    // Optional: Add method for custom validation (e.g., specific JSON schema)
+
     public static ResponseSpecification getBookSuccessResponseSpec() {
         return new ResponseSpecBuilder()
                 .expectStatusCode(200)

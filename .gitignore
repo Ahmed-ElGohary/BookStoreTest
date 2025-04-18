@@ -11,6 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
+.reports/extent-reports/extent-report.html
 
 ### Eclipse ###
 .apt_generated

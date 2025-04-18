@@ -1,4 +1,5 @@
 package com.bookstore.api.models;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Book {
@@ -20,7 +21,17 @@ public class Book {
     @JsonProperty("publishDate")
     private String publishDate;
 
-    // Getters and Setters
+    public Book() {}
+
+    public Book(int id, String title, String description, int pageCount, String excerpt, String publishDate) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.pageCount = pageCount;
+        this.excerpt = excerpt;
+        this.publishDate = publishDate;
+    }
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public String getTitle() { return title; }
@@ -33,4 +44,9 @@ public class Book {
     public void setExcerpt(String excerpt) { this.excerpt = excerpt; }
     public String getPublishDate() { return publishDate; }
     public void setPublishDate(String publishDate) { this.publishDate = publishDate; }
+
+    @Override
+    public String toString() {
+        return "Book{id=" + id + ", title='" + title + "', description='" + description + "', pageCount=" + pageCount + ", excerpt='" + excerpt + "', publishDate='" + publishDate + "'}";
+    }
 }
