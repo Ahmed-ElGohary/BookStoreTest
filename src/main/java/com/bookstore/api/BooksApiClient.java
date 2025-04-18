@@ -33,7 +33,7 @@ public class BooksApiClient {
                 .when()
                 .get("/{id}", id)
                 .then()
-                .spec(id == 9999 ? ResponseSpecificationConfig.getNotFoundResponseSpec() : ResponseSpecificationConfig.getSuccessResponseSpec())
+                .spec(id >= 99999 || id < 0 ? ResponseSpecificationConfig.getNotFoundResponseSpec() : ResponseSpecificationConfig.getSuccessResponseSpec())
                 .extract()
                 .response();
     }
@@ -68,7 +68,7 @@ public class BooksApiClient {
                 .when()
                 .delete("/{id}", id)
                 .then()
-                .spec(ResponseSpecificationConfig.getSuccessResponseSpec())
+                .spec(ResponseSpecificationConfig.getEmptyBodySuccessSpec())
                 .extract()
                 .response();
     }

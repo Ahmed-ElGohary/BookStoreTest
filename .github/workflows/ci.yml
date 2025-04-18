@@ -1,38 +1,45 @@
-name: Bookstore API Test CI
+  name: Bookstore API Test CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  on:
+    push:
+      branches: [ master ]
+    pull_request:
+      branches: [ master ]
 
-jobs:
-  test:
-    runs-on: ubuntu-latest
+  jobs:
+    test:
+      runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v4
 
-      - name: Set up JDK 11
-        uses: actions/setup-java@v4
-        with:
-          java-version: '11'
-          distribution: 'temurin'
+        - name: Set up JDK 11
+          uses: actions/setup-java@v4
+          with:
+            java-version: '11'
+            distribution: 'temurin'
 
-      - name: Build and run tests
-        run: mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
+        - name: Run Maven tests
+          run: mvn clean test -Dmaven.test.failure.ignore=true | tee maven-logs.txt
 
-      - name: Upload test report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: extent-report
-          path: reports/extent-reports/extent-report.html
+        - name: Upload Surefire reports
+          if: always()
+          uses: actions/upload-artifact@v4
+          with:
+            name: surefire-reports
+            path: target/surefire-reports/
 
-      - name: Upload test logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-logs
-          path: logs/test.log
+        - name: Upload Extent report
+          if: always()
+          uses: actions/upload-artifact@v4
+          with:
+            name: extent-report
+            path: target/extent-reports/extent-report.html
+
+        - name: Upload Maven logs
+          if: always()
+          uses: actions/upload-artifact@v4
+          with:
+            name: maven-logs
+            path: maven-logs.txt

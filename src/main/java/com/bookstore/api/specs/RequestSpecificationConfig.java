@@ -17,12 +17,4 @@ public class RequestSpecificationConfig {
                 .build();
     }
 
-    // Optional: Add method for authenticated requests (if needed in the future)
-    public static RequestSpecification getAuthenticatedRequestSpec(String token) {
-        return new RequestSpecBuilder()
-                .setBaseUri(BASE_URL)
-                .setContentType(JSON)
-                .addHeader("Authorization", "Bearer " + token)
-                .build();
-    }
 }

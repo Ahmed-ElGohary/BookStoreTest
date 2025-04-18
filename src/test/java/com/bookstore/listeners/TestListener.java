@@ -14,7 +14,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        ExtentSparkReporter sparkReporter = new ExtentSparkReporter("reports/extent-reports/extent-report.html");
+        ExtentSparkReporter sparkReporter = new ExtentSparkReporter("target/extent-reports/extent-report.html");
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
     }

@@ -2,7 +2,7 @@ package com.bookstore.api;
 
 import com.bookstore.api.specs.RequestSpecificationConfig;
 import com.bookstore.api.specs.ResponseSpecificationConfig;
-
+import com.bookstore.api.models.Author;
 import com.bookstore.api.utils.LoggerUtil;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -24,7 +24,6 @@ public class AuthorsApiClient {
                 .get()
                 .then()
                 .spec(ResponseSpecificationConfig.getSuccessResponseSpec())
-                .log().ifError()
                 .extract()
                 .response();
     }
@@ -35,19 +34,17 @@ public class AuthorsApiClient {
                 .when()
                 .get("/" + authorId)
                 .then()
-                .log().ifError()
                 .extract()
                 .response();
     }
 
-    public Response createAuthor(Object author) {
+    public Response createAuthor(Author author) {
         LoggerUtil.logInfo("Creating a new author");
         return given(requestSpec)
                 .body(author)
                 .when()
                 .post()
                 .then()
-                .log().ifError()
                 .extract()
                 .response();
     }
@@ -59,19 +56,17 @@ public class AuthorsApiClient {
                 .when()
                 .post()
                 .then()
-                .log().ifError()
                 .extract()
                 .response();
     }
 
-    public Response updateAuthor(int authorId, Object updatedAuthor) {
+    public Response updateAuthor(int authorId, Author updatedAuthor) {
         LoggerUtil.logInfo("Updating author with ID: " + authorId);
         return given(requestSpec)
                 .body(updatedAuthor)
                 .when()
                 .put("/" + authorId)
                 .then()
-                .log().ifError()
                 .extract()
                 .response();
     }
@@ -82,7 +77,6 @@ public class AuthorsApiClient {
                 .when()
                 .delete("/" + authorId)
                 .then()
-                .log().ifError()
                 .extract()
                 .response();
     }
